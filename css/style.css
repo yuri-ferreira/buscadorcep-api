@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tudo {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 50px;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+}
+.tudo div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  margin-bottom: 50px;
+}
+
+.dds {
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  margin-left: 5px;
+  background-color: coral;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+button:hover{
+  background-color: tomato;
+  transition: ease-in-out .2s;
+}
+
+
+input {
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid black;
+  margin: 6px;
+  font-size: 14px;
+  padding: 10px;
+}
